@@ -10,7 +10,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
+import { Apps, CloudDownload, Spa } from "@material-ui/icons";
 
 // React icons
 import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
@@ -26,7 +26,7 @@ function HeaderLinks({ ...props }) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <CustomDropdown
+        {/* <CustomDropdown
           noLiPadding
           buttonText="Components"
           buttonProps={{
@@ -46,9 +46,57 @@ function HeaderLinks({ ...props }) {
               Documentation
             </a>
           ]}
-        />
+        /> */}
       </ListItem>
+        <ListItem className={classes.listItem}>
+          <Button
+            href="/"
+            color="transparent"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <Spa className={classes.icons} /> 
+            &nbsp; Home
+          </Button>
+        </ListItem>
+      
+        <ListItem className={classes.listItem}>
+          <Button
+            href="/profile-page"
+            color="transparent"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <Spa className={classes.icons} /> 
+            &nbsp; About
+          </Button>
+        </ListItem>
+
+        <ListItem className={classes.listItem}>
+        <Button
+          href="/services-page"
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+          <Spa className={classes.icons} /> 
+          &nbsp; Services
+        </Button>
+      </ListItem>
+
       <ListItem className={classes.listItem}>
+        <Button
+          href="/contact-page"
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+          <Spa className={classes.icons} /> 
+          &nbsp; Contact
+        </Button>
+      </ListItem>
+
+      {/* <ListItem className={classes.listItem}>
         <Button
           href="https://www.creative-tim.com/product/material-kit-react"
           color="transparent"
@@ -57,7 +105,7 @@ function HeaderLinks({ ...props }) {
         >
           <CloudDownload className={classes.icons} /> Download
         </Button>
-      </ListItem>
+      </ListItem> */}
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-twitter"

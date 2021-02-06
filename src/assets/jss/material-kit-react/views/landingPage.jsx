@@ -4,6 +4,7 @@ const landingPageStyle = {
   container: {
     zIndex: "12",
     color: "#FFFFFF",
+    textAlign: "center",
     ...container
   },
   title: {
@@ -13,7 +14,8 @@ const landingPageStyle = {
     marginTop: "30px",
     minHeight: "32px",
     color: "#FFFFFF",
-    textDecoration: "none"
+    textDecoration: "none",
+    textAlight: "center"
   },
   subtitle: {
     fontSize: "1.313rem",
@@ -24,6 +26,7 @@ const landingPageStyle = {
     background: "#FFFFFF",
     position: "relative",
     zIndex: "3"
+    
   },
   mainRaised: {
     margin: "-60px 30px 0px",

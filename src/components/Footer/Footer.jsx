@@ -28,23 +28,23 @@ function Footer({ ...props }) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/"
+                href="https://www.seattleacupuncturehub.com/"
                 className={classes.block}
                 target="_blank"
               >
-                Creative Tim
+                Seattle Acupuncture Hub
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/presentation"
+                href="https://www.seattleacupuncturehub.com/contact-page"
                 className={classes.block}
                 target="_blank"
               >
-                About us
+                Contact Us
               </a>
             </ListItem>
-            <ListItem className={classes.inlineBlock}>
+            {/* <ListItem className={classes.inlineBlock}>
               <a
                 href="http://blog.creative-tim.com/"
                 className={classes.block}
@@ -52,8 +52,8 @@ function Footer({ ...props }) {
               >
                 Blog
               </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
+            </ListItem> */}
+            {/* <ListItem className={classes.inlineBlock}>
               <a
                 href="https://www.creative-tim.com/license"
                 className={classes.block}
@@ -61,20 +61,20 @@ function Footer({ ...props }) {
               >
                 Licenses
               </a>
-            </ListItem>
+            </ListItem> */}
           </List>
         </div>
         <div className={classes.right}>
           &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
+          <Favorite className={classes.icon} /> {" "}
           <a
             href="https://www.creative-tim.com"
             className={aClasses}
             target="_blank"
           >
-            Creative Tim
+            
           </a>{" "}
-          for a better web.
+          Love, Life, Aloha
         </div>
       </div>
     </footer>

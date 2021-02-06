@@ -20,7 +20,7 @@ import CardFooter from "components/Card/CardFooter.jsx";
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
 import team1 from "assets/img/faces/avatar.jpg";
-import team2 from "assets/img/faces/christian.jpg";
+import team2 from "assets/img/faces/rhiannon.jpg";
 import team3 from "assets/img/faces/kendall.jpg";
 
 class TeamSection extends React.Component {
@@ -33,77 +33,63 @@ class TeamSection extends React.Component {
     );
     return (
       <div className={classes.section}>
-        <h2 className={classes.title}>Here is our team</h2>
+        <h2 style={{fontFamily: 'Raleway', color: 'black'}}>Practitioners</h2>
         <div>
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={team1} alt="..." className={imageClasses} />
+                 
                 </GridItem>
-                <h4 className={classes.cardTitle}>
-                  Gigi Hadid
+               
+                <CardBody>
+                
+                </CardBody>
+                <CardFooter className={classes.justifyCenter}>
+
+                </CardFooter>
+              </Card>
+            
+            </GridItem>
+            
+            <GridItem xs={12} sm={12} md={4}>
+              <Card plain>
+                <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                  <img src={team2} alt="..." className={imageClasses} />
+                </GridItem>
+                <h4 style={{fontFamily: 'Raleway', color: 'black'}}>
+                  Rhiannon Stanford
                   <br />
-                  <small className={classes.smallTitle}>Model</small>
+                  <small className={classes.smallTitle}>🌺 Licensed Acupuncturist {"&"} Traditional Chinese Medicine Herbalist 🌿</small>
+                  {/* <small className={classes.smallTitle}>Acupuncturist {"&"} Herbalist</small> */}
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
+                    Rhiannon Stanford is a Licensed Acupuncturist and Herbalist specializing in women’s health issues, pain management, and internal medicine.  She enjoys working with all patients to empower and support them to achieve health, wellness, and balance.  She has board certification in both acupuncture and Chinese herbal medicine through the National Certification Commission for Acupuncture and Oriental Medicine (NCCAOM).  She is a Diplomate in Oriental Medicine (Dipl. OM), a NCCAOM board certification ensuring the highest quality of training in acupuncture and oriental medicine.
+                    
+                  </p>
+                  <br/>
+                  <p className={classes.description}>
+                    Rhiannon holds a Masters in Acupuncture and Oriental Medicine (M.Ac.O.M.) from the <a href="https://sieam.edu/">Seattle Institute of East Asian Medicine</a>, where she received rigorous apprentice style training from masters of diverse specialties.  She is adept at a broad range of skills in East Asian Medicine including Chinese Acupuncture, Japanese Acupuncture, Scalp Acupuncture, Auriculotherapy, Tuina (Chinese Medical Massage), and both Traditional (傷寒論 Shang Han Lun and 温病 Wen Bing) and Modern Chinese Herbalism.
+                  
+                  </p>
+                  <p>
+                  Licensed Acupuncturist, L.Ac.
+                  <br/>
+                  East Asian Medicine Practitioner, E.A.M.P.
+                  <br/>
+                  Masters of Acupuncture & Oriental Medicine, M.Ac.O.M.
                   </p>
                 </CardBody>
-                <CardFooter className={classes.justifyCenter}>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <FaTwitter/>
-                  </Button>
+
+                {/* <CardFooter className={classes.justifyCenter}>
+            
                   <Button
                     justIcon
                     color="transparent"
                     className={classes.margin5}
                   >
                     <FaInstagram/>
-                  </Button>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <FaFacebook/>
-                  </Button>
-                </CardFooter>
-              </Card>
-            </GridItem>
-            <GridItem xs={12} sm={12} md={4}>
-              <Card plain>
-                <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={team2} alt="..." className={imageClasses} />
-                </GridItem>
-                <h4 className={classes.cardTitle}>
-                  Christian Louboutin
-                  <br />
-                  <small className={classes.smallTitle}>Designer</small>
-                </h4>
-                <CardBody>
-                  <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
-                  </p>
-                </CardBody>
-                <CardFooter className={classes.justifyCenter}>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <FaTwitter/>
                   </Button>
                   <Button
                     justIcon
@@ -111,50 +97,23 @@ class TeamSection extends React.Component {
                     className={classes.margin5}
                   >
                     <FaLinkedin/>
-                  </Button>
-                </CardFooter>
+                  </Button> 
+
+                </CardFooter> */}
               </Card>
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={team3} alt="..." className={imageClasses} />
+                 
                 </GridItem>
-                <h4 className={classes.cardTitle}>
-                  Kendall Jenner
-                  <br />
-                  <small className={classes.smallTitle}>Model</small>
-                </h4>
+               
                 <CardBody>
-                  <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
-                  </p>
+               
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <FaTwitter/>
-                  </Button>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <FaInstagram/>
-                  </Button>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <FaFacebook/>
-                  </Button>
+             
+                
                 </CardFooter>
               </Card>
             </GridItem>
