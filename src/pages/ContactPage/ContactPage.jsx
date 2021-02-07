@@ -19,7 +19,7 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
-import profile from "assets/img/faces/rhiannon.jpg";
+// import profile from "assets/img/faces/rhiannon.jpg";
 
 import studio1 from "assets/img/examples/studio-1.jpg";
 import studio2 from "assets/img/examples/studio-2.jpg";
@@ -64,7 +64,7 @@ class ContactPage extends React.Component {
                 <GridItem xs={12} sm={12} md={6}>
                   <div className={classes.profile}>
                     <div>
-                      <img src={profile} alt="..." className={imageClasses} />
+                      <img src={studio1} alt="..." className={imageClasses} />
                     </div>
                     <div className={classes.name}>
                       <h3 style={{fontFamily: 'Raleway', color: 'black'}}>Contact</h3>
