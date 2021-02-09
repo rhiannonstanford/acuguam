@@ -19,6 +19,8 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
+import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
+
 // import profile from "assets/img/faces/rhiannon.jpg";
 
 import studio1 from "assets/img/examples/studio-1.jpg";
@@ -231,4 +233,5 @@ class ContactPage extends React.Component {
   }
 }
 
-export default withStyles(profilePageStyle)(ContactPage);
+// export default withStyles(profilePageStyle)(ContactPage);
+export default withStyles(landingPageStyle)(ContactPage);
