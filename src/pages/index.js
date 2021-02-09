@@ -14,7 +14,6 @@ import ProfilePage from "./ProfilePage/ProfilePage.jsx";
 import LoginPage from "./LoginPage/LoginPage.jsx";
 import ServicesPage from "./ServicesPage/ServicesPage.jsx";
 import ContactPage from "./ContactPage/ContactPage.jsx";
-import AboutPage from "./AboutPage/AboutPage.jsx";
 
 
 let hist = createMemoryHistory();
