@@ -65,7 +65,7 @@ function Footer({ ...props }) {
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
+          &copy; {1900 + new Date().getYear()} {" "} Made with Love{" "}
           <Favorite className={classes.icon} /> {" "}
           <a
             href="https://www.creative-tim.com"
@@ -74,7 +74,9 @@ function Footer({ ...props }) {
           >
             
           </a>{" "}
-          Love, Life, Aloha
+          Life {" "}
+          <Favorite className={classes.icon} /> {" "}
+          Aloha.
         </div>
       </div>
     </footer>

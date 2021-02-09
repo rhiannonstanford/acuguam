@@ -13,7 +13,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 import { Apps, CloudDownload, Spa } from "@material-ui/icons";
 
 // React icons
-import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
+// import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
@@ -107,24 +107,24 @@ function HeaderLinks({ ...props }) {
         </Button>
       </ListItem> */}
       <ListItem className={classes.listItem}>
-        <Tooltip
+        {/* <Tooltip
           id="instagram-twitter"
           title="Follow us on twitter"
           placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
+        > */}
+          {/* <Button
             href="https://twitter.com/CreativeTim"
             target="_blank"
             color="transparent"
             className={classes.navLink}
           >
             <FaTwitter/>
-          </Button>
-        </Tooltip>
+          </Button> */}
+        {/* </Tooltip> */}
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Tooltip
+        {/* <Tooltip
           id="instagram-facebook"
           title="Follow us on facebook"
           placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
@@ -138,10 +138,10 @@ function HeaderLinks({ ...props }) {
           >
             <FaFacebook/>
           </Button>
-        </Tooltip>
+        </Tooltip> */}
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Tooltip
+        {/* <Tooltip
           id="instagram-tooltip"
           title="Follow us on instagram"
           placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
@@ -155,7 +155,7 @@ function HeaderLinks({ ...props }) {
           >
             <FaInstagram/>
           </Button>
-        </Tooltip>
+        </Tooltip> */}
       </ListItem>
     </List>
   );
