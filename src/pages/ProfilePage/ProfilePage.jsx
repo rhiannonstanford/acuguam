@@ -19,13 +19,15 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
-import profile from "assets/img/faces/rhiannon.jpg";
+// import profile from "assets/img/faces/rhiannon.jpg";
 
 import studio1 from "assets/img/examples/studio-1.jpg";
 import studio2 from "assets/img/examples/studio-2.jpg";
 import studio3 from "assets/img/examples/studio-3.jpg";
 import studio4 from "assets/img/examples/studio-4.jpg";
 import studio5 from "assets/img/examples/studio-5.jpg";
+import studio6 from "assets/img/examples/rhiannon.jpg";
+
 import work1 from "assets/img/examples/olu-eletu.jpg";
 import work2 from "assets/img/examples/clem-onojeghuo.jpg";
 import work3 from "assets/img/examples/cynthia-del-rio.jpg";
@@ -68,7 +70,7 @@ class ProfilePage extends React.Component {
                 <GridItem xs={12} sm={12} md={6}>
                   <div className={classes.profile}>
                     <div>
-                      <img src={profile} alt="..." className={imageClasses} />
+                      <img src={studio6} alt="..." className={imageClasses} />
                     </div>
                     <div className={classes.name}>
                       <h3 style={{fontFamily: 'Raleway', color: 'black'}}>Rhiannon Stanford</h3>
