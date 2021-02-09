@@ -27,7 +27,7 @@ export default () => (
       <Route path="/login-page" component={LoginPage} />
       <Route path="/services-page" component={ServicesPage} />  
       <Route path="/contact-page" component={ContactPage} />  
-      <Route path="/" component={AboutPage} />
+      <Route path="/" component={LandingPage} />
       <Route path="/about-page" component={AboutPage} />
     </Switch>
   </Router>
