@@ -4,11 +4,11 @@ import classNames from "classnames";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
-import Camera from "@material-ui/icons/Camera";
-import Palette from "@material-ui/icons/Palette";
-import Favorite from "@material-ui/icons/Favorite";
+// import Camera from "@material-ui/icons/Camera";
+// import Palette from "@material-ui/icons/Palette";
+// import Favorite from "@material-ui/icons/Favorite";
 // React icons
-import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
+// import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
 // core components
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
