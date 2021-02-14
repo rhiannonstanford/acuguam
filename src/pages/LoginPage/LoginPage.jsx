@@ -44,8 +44,13 @@ class LoginPage extends React.Component {
   }
   render() {
     const { classes, ...rest } = this.props;
+    const STYLE = {
+      arial: {
+        fontFamily: 'Arial'
+      }
+    };
     return (
-      <div>
+      <div style={STYLE.arial}>
         <Header
           absolute
           color="transparent"

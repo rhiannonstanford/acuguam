@@ -46,6 +46,11 @@ class ContactPage extends React.Component {
       classes.imgRoundedCircle,
       classes.imgFluid
     );
+    const STYLE = {
+      arial: {
+        fontFamily: 'Arial'
+      }
+  };
     const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
     return (
       <div>
@@ -61,7 +66,7 @@ class ContactPage extends React.Component {
           {...rest}
         />
         <Parallax small image={require("assets/img/palm-sunrise.jpg")} />
-        <div className={classNames(classes.main, classes.mainRaised)}>
+        <div style={STYLE.arial} className={classNames(classes.main, classes.mainRaised)}>
           <div>
             <div className={classes.container}>
               <GridContainer justify="center">

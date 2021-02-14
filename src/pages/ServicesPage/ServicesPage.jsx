@@ -47,6 +47,11 @@ class ServicesPage extends React.Component {
       classes.imgFluid
     );
     const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
+    const STYLE = {
+      arial: {
+        fontFamily: 'Arial'
+      }
+    };
     return (
       <div>
         <Header
@@ -61,7 +66,7 @@ class ServicesPage extends React.Component {
           {...rest}
         />
         <Parallax small image={require("assets/img/paintbrushes.jpg")} />
-        <div className={classNames(classes.main, classes.mainRaised)}>
+        <div style={STYLE.arial} className={classNames(classes.main, classes.mainRaised)}>
           <div>
             <div className={classes.container}>
               <GridContainer justify="center">
