@@ -65,7 +65,7 @@ const card = {
 
 const defaultFont = {
   // fontFamily: '"Raleway", "Helvetica", "Arial", sans-serif',
-  fontFamily: 'Raleway, sans-serif',
+  fontFamily: 'Arial, sans-serif',
   fontWeight: "300",
   lineHeight: "1.5em"
 };
@@ -162,7 +162,7 @@ const title = {
   textDecoration: "none",
   fontWeight: "700",
   // fontFamily: `"Raleway", "Times New Roman", serif`
-  fontFamily: 'Raleway, sans-serif'
+  fontFamily: 'Arial, sans-serif'
 };
 
 const cardTitle = {

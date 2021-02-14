@@ -48,11 +48,6 @@ class ProfilePage extends React.Component {
       classes.imgRoundedCircle,
       classes.imgFluid
     );
-    const STYLE = {
-      raleway: {
-        fontFamily: 'Raleway'
-      }
-  };
     const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
     return (
       <div>
@@ -86,7 +81,7 @@ class ProfilePage extends React.Component {
                 </GridItem>
               </GridContainer>
               <div className={classes.description}>
-                <p style={STYLE.raleway}>
+                <p>
                   Rhiannon Stanford is a Licensed Acupuncturist and Herbalist specializing in women’s health issues, pain management, and internal medicine.  She enjoys working with all patients to empower and support them to achieve health, wellness, and balance.  She has board certification in both acupuncture and Chinese herbal medicine through the National Certification Commission for Acupuncture and Oriental Medicine (NCCAOM).  She is a Diplomate in Oriental Medicine (Dipl. OM), a NCCAOM board certification ensuring the highest quality of training in acupuncture and oriental medicine.
                 </p><br/>
                 <p>
