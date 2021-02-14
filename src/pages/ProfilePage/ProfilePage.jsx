@@ -48,6 +48,11 @@ class ProfilePage extends React.Component {
       classes.imgRoundedCircle,
       classes.imgFluid
     );
+    const STYLE = {
+      arial: {
+        fontFamily: 'Arial'
+      }
+  };
     const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
     return (
       <div>
@@ -63,7 +68,7 @@ class ProfilePage extends React.Component {
           {...rest}
         />
         <Parallax small image={require("assets/img/bg7.jpg")} />
-        <div className={classNames(classes.main, classes.mainRaised)}>
+        <div style={STYLE.arial} className={classNames(classes.main, classes.mainRaised)}>
           <div>
             <div className={classes.container}>
               <GridContainer justify="center">
@@ -73,7 +78,7 @@ class ProfilePage extends React.Component {
                       <img src={studio6} alt="..." className={imageClasses} />
                     </div>
                     <div className={classes.name}>
-                      <h3 style={{fontFamily: 'Raleway', color: 'black'}}>Rhiannon Stanford</h3>
+                      <h3>Rhiannon Stanford</h3>
                       <h6>Licensed Acupuncturist<br/> & <br/>Traditional Chinese Medicine Herbalist 🌿</h6>
 
                     </div>
@@ -81,7 +86,7 @@ class ProfilePage extends React.Component {
                 </GridItem>
               </GridContainer>
               <div className={classes.description}>
-                <p>
+                <p style={STYLE.arial}>
                   Rhiannon Stanford is a Licensed Acupuncturist and Herbalist specializing in women’s health issues, pain management, and internal medicine.  She enjoys working with all patients to empower and support them to achieve health, wellness, and balance.  She has board certification in both acupuncture and Chinese herbal medicine through the National Certification Commission for Acupuncture and Oriental Medicine (NCCAOM).  She is a Diplomate in Oriental Medicine (Dipl. OM), a NCCAOM board certification ensuring the highest quality of training in acupuncture and oriental medicine.
                 </p><br/>
                 <p>
