@@ -76,16 +76,15 @@ class ContactPage extends React.Component {
                       {/* <img src={rhiannon} alt="..." className={imageClasses} /> */}
                     </div>
                     <div className={classes.name}>
-                      <h3 style={{fontFamily: 'Arial', color: '#666666'}}>Contact</h3>
-                      <h6><br/><a href="https://www.google.com/maps/dir/47.300608,-122.22464/seattle+acupuncture+hub/@47.4703867,-122.5635744,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x54901501329e7417:0xed3153ff527be64d!2m2!1d-122.3515063!2d47.6502059">3401 Evanston Ave N, Suite A 
+                      <h2 style={{fontFamily: 'Arial', color: '#666666'}}>Contact</h2>
+                      <br/>
+                      <h5><a href="https://www.google.com/maps/dir/47.300608,-122.22464/seattle+acupuncture+hub/@47.4703867,-122.5635744,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x54901501329e7417:0xed3153ff527be64d!2m2!1d-122.3515063!2d47.6502059">3401 Evanston Ave N, Suite A 
                         <br/> Seattle, WA 98103</a> <br/> 🌸  <br/><a href = "mailto: info@seattleacupuncturehub.com">info@seattleacupuncturehub.com</a><br/>
                          🌸  
                         <br/>
                         <a href="tel:1-206-659-6791">206-659-6791</a>
-                        
-
-
-                        </h6>
+                      
+                      </h5>
 
                     </div>
                   </div>

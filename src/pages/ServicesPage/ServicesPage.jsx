@@ -78,7 +78,7 @@ class ServicesPage extends React.Component {
                     <br/>
                     <p></p>
                     <div className={classes.name}>
-                      <h3 style={{fontFamily: 'Raleway', color: 'black'}}>Services</h3>
+                      <h2 style={{fontFamily: 'Raleway', color: 'black'}}>Services</h2>
                       <p></p>
                       <br/>
 
