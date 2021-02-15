@@ -78,8 +78,8 @@ class ProfilePage extends React.Component {
                       <img src={studio6} alt="..." className={imageClasses} />
                     </div>
                     <div className={classes.name}>
-                      <h3>Rhiannon Stanford</h3>
-                      <h6>Licensed Acupuncturist<br/> & <br/>Traditional Chinese Medicine Herbalist 🌿</h6>
+                      <h1 style={{fontFamily: 'Arial', color: '#666666'}}>Rhiannon Stanford</h1>
+                      <h3 style={{fontFamily: 'Arial', color: '#666666'}}>Licensed Acupuncturist<br/> & <br/>Traditional Chinese Medicine Herbalist 🌿</h3>
 
                     </div>
                   </div>
@@ -218,7 +218,7 @@ class ProfilePage extends React.Component {
                   /> */}
                 </GridItem>
               </GridContainer>
-              <h3 style={{fontFamily: 'Raleway', color: 'black'}}>Patient Stories</h3>
+              <h2 style={{fontFamily: 'Arial', color: '#666666'}}>Patient Stories</h2>
               <Card>
                 <CardBody>
                   Rhiannon is amazing! Her acupuncture treatments have made such a difference in how I feel.  I started seeing Rhiannon when she was a clinician at the Seattle Institute of Oriental Medicine. I was immediately impressed by her knowledge and quality of care. Rhiannon made me feel at ease. Her treatments were very effective in dealing with a knee problem and other issues. I always left the treatment feeling better than when I went in.<br/>
