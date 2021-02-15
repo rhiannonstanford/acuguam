@@ -73,7 +73,7 @@ class ContactPage extends React.Component {
                 <GridItem xs={12} sm={12} md={6}>
                   <div className={classes.profile}>
                     <div>
-                      <img src={rhiannon} alt="..." className={imageClasses} />
+                      {/* <img src={rhiannon} alt="..." className={imageClasses} /> */}
                     </div>
                     <div className={classes.name}>
                       <h3 style={{fontFamily: 'Arial', color: 'black'}}>Contact</h3>
@@ -91,7 +91,9 @@ class ContactPage extends React.Component {
                   </div>
                 </GridItem>
               </GridContainer>
-              <div className={classes.description}>
+              <div style={{color: "#444444"}}  className={classes.description}>
+                <br/>
+                <p></p>
                 <p>
                 We’re located at the Atrium Offices in the heart of Seattle’s Fremont neighborhood. Contact us in advance at 206.659.6791 or info@seattleacupuncturehub.com. 
                 </p>
