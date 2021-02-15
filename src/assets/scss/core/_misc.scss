@@ -68,7 +68,7 @@ p {
   margin: 0 0 10px;
 }
 html {
-  font-family: Raleway, Arial, sans-serif;
+  font-family: Raleway, Arial, sans-serif !important;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -76,7 +76,7 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 body {
-  font-family: Raleway;
+  font-family: Raleway !important;
   background-color: #e5e5e5;
   color: $black-color;
   margin: 0;
