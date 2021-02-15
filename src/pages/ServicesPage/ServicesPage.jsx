@@ -89,17 +89,17 @@ class ServicesPage extends React.Component {
                 </GridItem>
               </GridContainer>
               <div className={classes.description}>
-                <h5>Acupuncture</h5>
+                <h3>Acupuncture</h3>
                 <p>
                   Acupuncture is an ancient healing modality that has been practiced in China for more than three thousand years. It can be used to assist your body in returning to health and balance so that you may have a vibrant and healthy life.{" "}
                 </p>
                 <br/>
-                <h5>Chinese Herbal Medicine 🌿</h5>
+                <h3>Chinese Herbal Medicine 🌿</h3>
                 <p>
                   We offer Chinese Medicine consults which may include recommending herbs for you to support you in your health and energy harmonization. Herbs can be prescribed in theform of teas, pills, tinctures, linaments, herbal patches, and poultices.{" "}
                 </p>
                 <br/>
-                <h5>Tuina Chinese Massage</h5>
+                <h3>Tuina Chinese Massage</h3>
                 <p>
                   Tuina is a form of Chinese Medical Massage that has been practiced for more than four thousand years. Tuina literally means to tui "push" and na "grasp." It is a system of bodywork based on the principles of Chinese Medicine which seeks to harmonize the channels and qi to promote health.
                 </p>
