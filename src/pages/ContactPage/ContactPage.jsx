@@ -98,11 +98,15 @@ class ContactPage extends React.Component {
                 </p>
                 <br/>
                 <p>
+                <span style={{color: "#888888", fontWeight: "bold"}}>COVID Precautions: </span>We are a medical facility.  Please wear a mask when coming to clinic to protect yourself and other vulnerable patients.  Do not come to clinic if you have any covid symptoms and please notify your provider.{" "}
+                </p>
+                <br/>
+                <p>
                 <span style={{color: "#888888", fontWeight: "bold"}}>Address: </span>3401 Evanston Ave N, Suite A • Seattle, WA 98103
                 </p>
                 <br/>
                 <p>
-                <span style={{color: "#888888", fontWeight: "bold"}}>Directions: </span>Our clinic is located in the Atrium Suites. To get to the clinic, take the outdoor elevator located on Evanston next to the Red Door Restaurant. Take the elevator up to the 2nd level and walk across the enclosed walkway. As you pass through the glass doors you’ll find yourself in our waiting area. Help yourself to tea or water, and someone will be with you shortly!{" "}
+                <span style={{color: "#888888", fontWeight: "bold"}}>Directions: </span>Our clinic is located in the Atrium Suites. To get to the clinic, take the outdoor elevator located on Evanston next to the Red Door Restaurant. Take the elevator up to the 2nd level and walk across the enclosed walkway. As you pass through the glass doors you’ll find yourself in our waiting area. Have a seat on the sofa and someone will be with you shortly!{" "}
                 </p>
                 <br/>
                 <p>
@@ -110,7 +114,7 @@ class ContactPage extends React.Component {
                 </p>
                 <br/>
                 <p>
-                <span style={{color: "#888888", fontWeight: "bold"}}>Parking: </span> The building has paid parking in the lower levels (accessed in the alley off of Evanston). Downtown Fremont also has plentiful free 2-hour parking areas along the street. Spaces do fill up, so budget time to look for a parking space, if driving.{" "}
+                <span style={{color: "#888888", fontWeight: "bold"}}>Parking: </span> The building has paid parking in the lower levels (accessed from 34th Street). Downtown Fremont also has plentiful free 2-hour parking areas along the street. Spaces do fill up, so budget time to look for a parking space, if driving.{" "}
                 </p>
               
               </div>
