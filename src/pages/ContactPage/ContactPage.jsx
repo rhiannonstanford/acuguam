@@ -98,7 +98,7 @@ class ContactPage extends React.Component {
                 </p>
                 <br/>
                 <p>
-                <span style={{color: "#888888", fontWeight: "bold"}}>COVID Precautions: </span>We are a medical facility.  Please wear a mask when coming to clinic to protect yourself and other vulnerable patients.  Do not come to clinic if you have any covid symptoms and please notify your provider.{" "}
+                <span style={{color: "#888888", fontWeight: "bold"}}>COVID Precautions: </span>We are a medical facility.  Wear a mask when coming to clinic to protect yourself and other vulnerable patients.  Do not come to clinic if you have any COVID symptoms and please notify your provider.{" "}
                 </p>
                 <br/>
                 <p>
@@ -106,7 +106,7 @@ class ContactPage extends React.Component {
                 </p>
                 <br/>
                 <p>
-                <span style={{color: "#888888", fontWeight: "bold"}}>Directions: </span>Our clinic is located in the Atrium Suites. To get to the clinic, take the outdoor elevator located on Evanston next to the Red Door Restaurant. Take the elevator up to the 2nd level and walk across the enclosed walkway. As you pass through the glass doors you’ll find yourself in our waiting area. Have a seat on the sofa and someone will be with you shortly!{" "}
+                <span style={{color: "#888888", fontWeight: "bold"}}>Directions: </span>Our clinic is located in the Atrium Suites. To get to the clinic, take the outdoor elevator located on Evanston next to the Dreamland Restaurant. Take the elevator up to the 2nd level and walk across the enclosed walkway. As you pass through the glass doors you’ll find yourself in our waiting area. Have a seat on the sofa and someone will be with you shortly!{" "}
                 </p>
                 <br/>
                 <p>
