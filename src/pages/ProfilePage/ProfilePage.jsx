@@ -381,6 +381,22 @@ class ProfilePage extends React.Component {
                 </CardBody>
                 <CardFooter>- Kira D.</CardFooter>
               </Card>
+
+              <Card>
+                <CardBody>
+                  I’ve been getting acupuncture treatments from Rhiannon Stanford for over 2 years. Her work is nothing less than amazing. I had a very persistent sty that did not respond to several home treatments or to a double course of antibiotics. It was gone after 2-3 treatments form her and never came back. She’s also helped me with hip pain and practically eliminated my hot flashes. I know acupuncture isn’t for everyone, but if it works for you, I highly recommend Rhiannon’s deep knowledge and gentle approach.
+                </CardBody>
+                <CardFooter>- Marie M.</CardFooter>
+              </Card>
+
+              <Card>
+                <CardBody>
+                  I highly recommend Rhiannon at Seattle Acupuncture Hub.  Rhiannon has been treating me weekly for several months and I have noticed significant improvements in my physical health and mental strength.  She is very knowledgeable about Chinese and Japanese medicine.  She pulls from that knowledge, coupled with her awareness of Western medicine, and tailors her treatments to address my immediate needs as well as to enhance my body’s overall needs.  Her treatments compliment Western medicine and also goes further to build up the body’s natural healing systems, once the major issue has been dealt with.
+                  <br/>
+                  Rhiannon has a gentle, attentive approach.  If you are in relatively good health, go see her for an overall check to balance your systems. If you have been dealing with a long-term illness or an immune system problem, I urge you to get treated by Rhiannon.  I feel so much better and I’m certain you will, too.
+                </CardBody>
+                <CardFooter>- Eva A.</CardFooter>
+              </Card>
               
 
               <br/>
