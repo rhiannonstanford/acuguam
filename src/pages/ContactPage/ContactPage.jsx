@@ -116,6 +116,8 @@ class ContactPage extends React.Component {
                 <p>
                 <span style={{color: "#888888", fontWeight: "bold"}}>Parking: </span> The building has paid parking in the lower levels (accessed from 34th Street). Downtown Fremont also has plentiful free 2-hour parking areas along the street. Spaces do fill up, so budget time to look for a parking space, if driving.{" "}
                 </p>
+                <br/>
+                
               
               </div>
               <GridContainer justify="center">
